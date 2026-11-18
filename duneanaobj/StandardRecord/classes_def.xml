@@ -35,7 +35,8 @@
 
   <!-- - - - - - - - - - - Beam-related - - - - - - - - - - - - - -->
 
-  <class name="caf::SRBeamBranch" ClassVersion="11">
+  <class name="caf::SRBeamBranch" ClassVersion="12">
+   <version ClassVersion="12" checksum="666262563"/>
    <version ClassVersion="11" checksum="2626321545"/>
    <version ClassVersion="10" checksum="3825039376"/>
   </class>

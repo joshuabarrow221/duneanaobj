@@ -2,6 +2,7 @@
 [[Format loosely based on <https://keepachangelog.com/en/0.3.0>]]
 
 ##### current
+* NuMI beam quality in `SRBeamBranch`: NOvA-style target positions (`beamHpos`, `beamVpos`, per-batch `beamHposBatch`, `beamVposBatch`), per-batch intensities in POT (`beamHintBatch`, `beamVintBatch`), raw `potTRTGTD`, and the per-cut flags behind `isgoodpulse` (`passPOT`, `passHornI`, `passHpos`, `passVpos`, `passHwidth`, `passVwidth`, `passDeltaT`). `isFHC()`/`isRHC()` now use the `E:HRNDIR` horn-polarity readback (`hornDir`) instead of the sign of `hornI`, which is negative in both polarities. Corrected field documentation (device names, units, timing semantics).
 
 ##### [v04_03_00] -- 2026-11-18
 * Implement missing data fields for SAND antineutrino CCQE analysis on hydrogen [#118].
